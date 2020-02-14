@@ -1,7 +1,9 @@
+//beginning solution
 function processData(inputString) { 
   console.log("Hello, World.");
   console.log (inputString);
 }
+//ending solution
 
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
