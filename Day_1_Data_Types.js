@@ -20,14 +20,14 @@ function readLine() {
 }
 
 function main() {
-    var i = 4
-    var d = 4.0
-    var s = "HackerRank "
-    var l = Number(input_stdin_array[0]); 
-    var k = Number(input_stdin_array[1]);
-    var m = input_stdin_array[2];
+  var i = 4;
+  var d = 4.0;
+  var s = "HackerRank ";
+  var l = Number(input_stdin_array[0]); 
+  var k = Number(input_stdin_array[1]);
+  var m = input_stdin_array[2];
     
- console.log (i + l);
- console.log ( (d + k).toFixed(1) );
- console.log (s + m);
+  console.log (i + l);
+  console.log ( (d + k).toFixed(1) );
+  console.log (s + m);
 }
