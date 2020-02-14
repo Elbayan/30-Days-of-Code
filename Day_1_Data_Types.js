@@ -23,6 +23,8 @@ function main() {
   var i = 4;
   var d = 4.0;
   var s = "HackerRank ";
+  
+//beginning solution
   var l = Number(input_stdin_array[0]); 
   var k = Number(input_stdin_array[1]);
   var m = input_stdin_array[2];
@@ -31,3 +33,4 @@ function main() {
   console.log ( (d + k).toFixed(1) );
   console.log (s + m);
 }
+//ending solution
