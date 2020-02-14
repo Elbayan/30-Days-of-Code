@@ -22,6 +22,7 @@ function readLine() {
     return inputString[currentLine++];
 }
 
+//beginning solution
 function main() {
     const N = parseInt(readLine(), 10);
         if (N % 2 == !0) { 
@@ -34,3 +35,4 @@ function main() {
           console.log ('Not Weird');
         }
 }
+//ending solution
