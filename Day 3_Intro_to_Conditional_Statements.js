@@ -25,7 +25,7 @@ function readLine() {
 //beginning solution
 function main() {
     const N = parseInt(readLine(), 10);
-        if (N % 2 == !0) { 
+        if (N % 2 !=== 0) { 
           console.log ('Weird');
         } else if (2 <= N && N <= 5) {
           console.log ('Not Weird');
