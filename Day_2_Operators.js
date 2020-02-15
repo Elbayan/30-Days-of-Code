@@ -24,17 +24,11 @@ function readLine() {
 
 //beginning solution
 function solve(meal_cost, tip_percent, tax_percent) {
-  let tip;
-  let tax;
-  let totalCost;
+  const tip = meal_cost * tip_percent / 100;
+  const tax = meal_cost * tax_percent / 100;
+  const totalCost = meal_cost + tip + tax;
 
-  tip = meal_cost * tip_percent / 100;
-
-  tax = meal_cost * tax_percent / 100;
-  
-  totalCost = meal_cost + tip + tax;
-
-  console.log(Math.round (totalCost));ыыы
+  console.log(Math.round (totalCost));
 }
 //ending solution
 
