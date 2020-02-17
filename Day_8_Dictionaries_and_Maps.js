@@ -8,6 +8,7 @@ function processData(input) {
   let phoneBook = {};
 
   for (let i = 0; i < n; i++) {
+      
     if (arrayOfSeparatedStrings[i+1] !== undefined) 
       arrayOfNamePhone = arrayOfSeparatedStrings[i+1].split(' ');
       phoneBook[arrayOfNamePhone[0]] = arrayOfNamePhone[1];
