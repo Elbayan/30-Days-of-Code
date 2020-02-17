@@ -30,7 +30,7 @@ function Person(initialAge){
   this.amIOld = function(){   
     if (this.age < 13) { 
       console.log ('You are young.');
-    } else if (13 <= this.age && this.age < 18) {
+    } else if (this.age => 13 && this.age < 18) {
       console.log ('You are a teenager.');
     } else {  
       console.log ('You are old.');
