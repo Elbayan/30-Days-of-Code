@@ -31,7 +31,7 @@ function main() {
           console.log ('Not Weird');
         } else if (6 <= N && N <= 20) {
           console.log ('Weird');
-        } else if ((N % 2 == 0) && N > 20) {
+        } else if (N > 20) {
           console.log ('Not Weird');
         }
 }
