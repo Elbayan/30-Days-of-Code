@@ -1,13 +1,13 @@
 //beginning solution
 function processData(input) {
-  let arrayOfSeparatedStrings = input.split('\n');
-  let n = parseInt(arrayOfSeparatedStrings[0]);
-  let numberOfNewName = arrayOfSeparatedStrings.length - n;
+  const separatedStrings = input.split('\n');
+  const phonesCount = parseInt(separatedStrings[0]);
+  let numberOfNewName = separatedStrings.length - phonesCount;
   let arrayOfNamePhone = new Array();
   let arrayNewNamesCheck = new Array();
   let phoneBook = {};
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < phonesCount; i++) {
       
     if (arrayOfSeparatedStrings[i+1] !== undefined) 
       arrayOfNamePhone = arrayOfSeparatedStrings[i+1].split(' ');
@@ -15,7 +15,7 @@ function processData(input) {
   }  
 
   for (let j = 1; j < numberOfNewName; j++) {
-    arrayNewNamesCheck = arrayOfSeparatedStrings[j + n];
+    arrayNewNamesCheck = separatedStrings[j + phonesCount];
 
     if ( phoneBook.hasOwnProperty(arrayNewNamesCheck) ) {
       console.log(arrayNewNamesCheck + '=' + phoneBook[arrayNewNamesCheck]);  
