@@ -9,8 +9,8 @@ function processData(input) {
 
   for (let i = 0; i < phonesCount; i++) {
       
-    if (arrayOfSeparatedStrings[i+1] !== undefined) 
-      arrayOfNamePhone = arrayOfSeparatedStrings[i+1].split(' ');
+    if (separatedStrings[i+1] !== undefined) 
+      arrayOfNamePhone = separatedStrings[i+1].split(' ');
       phoneBook[arrayOfNamePhone[0]] = arrayOfNamePhone[1];
   }  
 
@@ -23,7 +23,7 @@ function processData(input) {
       console.log('Not found');
     }
   }
-} 
+}
 //ending solution
 
 process.stdin.resume();
