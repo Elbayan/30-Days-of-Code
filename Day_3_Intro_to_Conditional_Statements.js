@@ -25,14 +25,9 @@ function readLine() {
 //beginning solution
 function main() {
     const N = parseInt(readLine(), 10);
-        if (N % 2 !=== 0) { 
-          console.log ('Weird');
-        } else if (2 <= N && N <= 5) {
-          console.log ('Not Weird');
-        } else if (6 <= N && N <= 20) {
-          console.log ('Weird');
-        } else if (N > 20) {
-          console.log ('Not Weird');
-        }
+        (N % 2 !== 0) ? console.log ('Weird'):
+        (N >= 2 && N <= 5) ? console.log ('Not Weird'):
+        (N >= 6 && N <= 20) ? console.log ('Weird'):
+        console.log ('Not Weird');
 }
 //ending solution
