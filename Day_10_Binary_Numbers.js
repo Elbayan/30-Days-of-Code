@@ -34,7 +34,8 @@ function main() {
 
       (separatedNumbers[i] == 1) ? current += 1 : current = 0;
 
-      (current > max) ? max = current : 0;  
+      if (current > max) 
+      max = current   
 
     }  
     console.log(max);
