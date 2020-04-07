@@ -41,7 +41,7 @@ function Solution(){
     return head;
     };
 //ending solution
-
+ 
 	this.display=function(head){
         var start=head;
             while(start){
