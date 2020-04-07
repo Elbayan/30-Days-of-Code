@@ -30,7 +30,7 @@ function solve(meal_cost, tip_percent, tax_percent) {
 
   console.log(Math.round (totalCost));
 }
-//ending solution
+//ending solution 
 
 function main() {
     const meal_cost = parseFloat(readLine());
